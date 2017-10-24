@@ -12,5 +12,3 @@ Dir[File.join(File.dirname(__FILE__), "app/controllers", "*.rb")].collect {|file
 end
 use Rack::MethodOverride
 run ApplicationController
-run OwnersController
-run PetsController
